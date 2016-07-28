@@ -69,9 +69,9 @@ Estas son algunas de las capas de React que hay disponibles.
 
             <Appear fid="1">
               <List textColor="text">
-                <ListItem textSize={listTextSize}>DOM</ListItem>
-                <ListItem textSize={listTextSize}>Server</ListItem>
-                <ListItem textSize={listTextSize}>Native</ListItem>
+                <ListItem textSize={listTextSize}>react-dom</ListItem>
+                <ListItem textSize={listTextSize}>react-dom-server</ListItem>
+                <ListItem textSize={listTextSize}>react-native</ListItem>
               </List>
             </Appear>
 
@@ -106,8 +106,10 @@ Estas son algunas de las capas de React que hay disponibles.
             <List textColor="text">
               <ListItem textSize="2rem"><code>npm i -g react-native-cli</code></ListItem>
               <ListItem textSize="2rem"><code>react-native init SimpleTodosReduxNative</code></ListItem>
-              <ListItem textSize="2rem"><code>npm i --save react-redux redux</code></ListItem>
-              <ListItem textSize="2rem"><code>npm i --save-dev remote-redux-devtools</code></ListItem>
+              <ListItem textSize="2rem"><code>npm i --save react-redux</code></ListItem>
+              <ListItem textSize="2rem"><code>npm i --save redux</code></ListItem>
+              <ListItem textSize="2rem"><code>npm i --save remote-redux-devtools</code></ListItem>
+              <ListItem textSize="2rem"><code>react-native run-ios</code></ListItem>
             </List>
           </Slide>
         </Deck>
