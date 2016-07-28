@@ -1,7 +1,7 @@
 # Redux ToDo List
-Slides del ejemplo básico de integración de Redux en una aplicación React.
+Slides sobre React como concepto.
 
-[Código](https://github.com/rdiazv/simple-todos-redux).
+[Código](https://github.com/rdiazv/simple-todos-redux-native).
 
 ## Instrucciones
 - npm i
